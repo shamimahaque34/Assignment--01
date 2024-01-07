@@ -214,13 +214,55 @@ body {
 }
 
 .holidays-sale .holidays-sale-img {
-
-    display: flex;
-
+  display: flex;
 }
 /*hoilidays sale section end */
 
-
 /* awesome prtfolio section start */
+.awesome-portfolio {
+  width: 1120px;
+  background: #fff;
+  text-align: justify;
+  margin: 0 auto;
+}
 
+.awesome-portfolio .awesome-portfolio-text {
+}
+
+.awesome-portfolio .awesome-portfolio-text h6 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.awesome-portfolio .awesome-portfolio-text h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.awesome-portfolio .awesome-portfolio-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.awesome-portfolio .awesome-portfolio-text img{
+    display:flex;
+    gap: 10px;
+}
 /*awesome portfolio section end */
+
+/*newsletter section start */
+
+/*newsletter section end */
