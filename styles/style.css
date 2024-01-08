@@ -29,7 +29,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-top: 220px;
+  padding-top: 150px;
   padding-bottom: 20px;
 }
 
@@ -119,17 +119,18 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  padding-left: 115px;
 }
 
-.midnight-party h6 {
+.midnight-party a {
   color: #fff;
-  text-align: center;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 /* midnight party section end */
@@ -199,8 +200,20 @@
 .coming-soon{
   max-width: 1120px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  
+
 }
+
+.coming-soon-2nd-part{
+  
+  border-radius: 463px;
+  border: 15px solid #F00;
+  padding: 50px;
+  
+  }
+
 /*coming soon section end */
 
 /* holidays sale section  start */
@@ -353,11 +366,12 @@
   display: flex;
   justify-content: space-between;
   gap: 0;
-  width: 300px;
+  max-width: 600px;
+  width: 100%;
   border-radius: 20px;
-  flex-shrink: 0;
   background: #fff;
   text-align: center;
+  padding-left: 30px;
 }
 
 .newsletter-section-btn {
@@ -408,7 +422,6 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px;
 
 }
 
