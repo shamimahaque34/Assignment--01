@@ -193,6 +193,16 @@
 
 /* party place date time section end */
 
+
+/*coming soon section start */
+
+.coming-soon{
+  max-width: 1120px;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*coming soon section end */
+
 /* holidays sale section  start */
 .holidays-sale {
   max-width: 1200px;
@@ -375,36 +385,45 @@
 
 /*footer section start */
 .footer {
-  max-width: 1600px;
+  max-width: 1320px;
   height: 609px;
-  flex-shrink: 0;
   background: #070211;
   margin-top: 50px;
 }
 
-.footer .footer-top-text {
+.footer .footer-top-text   {
   display: flex;
-  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+  padding-top: 50px;
 }
 
+
+
 .footer .footer-top-text,
-.footer-bottom-text {
+.footer-bottom-text , img {
   color: #fff;
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 40px;
+
 }
 
 .footer .footer-bottom-text {
   display: flex;
-  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
 }
 
 .footer-img {
   text-align: center;
   margin: 0 auto;
+  border-bottom: 1px solid gray;
+  padding: 50px 0;
 }
 
 /*footer section end */
