@@ -95,12 +95,11 @@
   height: 500px;
   margin: 0 auto;
   margin-top: 50px;
-  padding: 120px 0 0 120px;
 }
 
-/* .midnight-party {
-  
-} */
+.midnight-image{
+  padding-top: 20px;
+}
 
 .midnight-party h3 {
   color: #fff;
@@ -314,8 +313,8 @@
   justify-content: space-between; 
   gap:5px;  
   position: relative; 
-  max-width: 1320px;
-  width: 82%;
+  max-width: 1120px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -325,6 +324,7 @@
   top:250px;
   left:50px;
 }
+
 
 .holidays-sale-img  .holidays-sale-img-2{
   position: absolute;
@@ -383,12 +383,12 @@
 .awesome-portfolio .awesome-portfolio-img {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 10px;
 }
 
 .awesome-portfolio .awesome-portfolio-img img {
-  width: 30%;
-  /* flex-grow: 1; */
+  width: 32.5%;
+ 
 }
 /*awesome portfolio section end */
 
