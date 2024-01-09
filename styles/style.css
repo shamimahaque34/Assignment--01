@@ -34,6 +34,9 @@
 }
 
 .banner h3 {
+  max-width: 632px;
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   text-align: center;
   font-family: Merriweather;
@@ -87,7 +90,8 @@
 .new-midnight-party {
   display: flex;
   overflow: hidden;
-  background-image: url('../images/Vectorrr.png');
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url('../images/Vectorrr.png');
   background-repeat: no-repeat;
   max-width: 1120px;
   height: 500px;
@@ -123,6 +127,9 @@
 }
 
 .midnight-party a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 150px;
   color: #fff;
   font-family: Inter;
   font-size: 20px;
@@ -194,35 +201,90 @@
 
 /* party place date time section end */
 
-
 /*coming soon section start */
 
-.coming-soon{
+.coming-soon {
   max-width: 1120px;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  
-
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
-.coming-soon-2nd-part{
-  
+
+.coming-soon-1st-part h6 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.coming-soon-1st-part h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.coming-soon-1st-part p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.coming-soon-2nd-part {
   border-radius: 463px;
-  border: 15px solid #F00;
+  border: 15px solid #f00;
   padding: 50px;
-  
-  }
+}
+
+
+
+.coming-soon-3rd-part h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.coming-soon-3rd-part p {
+  max-width: 276px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.coming-soon-3rd-part img {
+  max-width: 140px;
+  height: 140px;
+}
 
 /*coming soon section end */
 
 /* holidays sale section  start */
 .holidays-sale {
-  max-width: 1200px;
+  max-width: 1120px;
   background: #fff;
   text-align: center;
   margin: 0 auto;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* .holidays-sale .holidays-sale-text {
@@ -251,22 +313,7 @@
   line-height: normal;
 }
 
-.holidays-sale .holidays-sale-img {
-  /* display: flex;
-  flex-wrap: wrap; */
-}
 
-.holidays-sale-img-2 {
-  vertical-align: bottom;
-}
-
-.holidays-sale-img-1 {
-  vertical-align: top right;
-}
-
-.holidays-sale-img-3 {
-  vertical-align: bottom left;
-}
 /*hoilidays sale section end */
 
 /* awesome prtfolio section start */
@@ -278,8 +325,7 @@
   margin-top: 50px;
 }
 
-/* .awesome-portfolio .awesome-portfolio-text {
-} */
+
 
 .awesome-portfolio .awesome-portfolio-text h6 {
   color: #f00;
@@ -366,8 +412,9 @@
   display: flex;
   justify-content: space-between;
   gap: 0;
-  max-width: 600px;
+  max-width: 500px;
   width: 100%;
+  height: 35px;
   border-radius: 20px;
   background: #fff;
   text-align: center;
@@ -405,30 +452,32 @@
   margin-top: 50px;
 }
 
-.footer .footer-top-text   {
+.footer .footer-top-text {
   display: flex;
   flex-wrap: wrap;
   border-bottom: 1px solid gray;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 50px;
 }
 
-
-
 .footer .footer-top-text,
-.footer-bottom-text , img {
+.footer-bottom-text,
+img {
   color: #fff;
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
+}
+
+.footer .footer-top-text p{
+  max-width: 400px;
 
 }
 
 .footer .footer-bottom-text {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 50px;
 }
 
