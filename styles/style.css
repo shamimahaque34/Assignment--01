@@ -455,9 +455,10 @@
 .footer .footer-top-text {
   display: flex;
   flex-wrap: wrap;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   justify-content: space-around;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer .footer-top-text,
@@ -484,7 +485,7 @@ img {
 .footer-img {
   text-align: center;
   margin: 0 auto;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   padding: 50px 0;
 }
 
